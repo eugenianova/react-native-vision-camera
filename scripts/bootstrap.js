@@ -10,6 +10,8 @@ const options = {
   encoding: 'utf-8',
 };
 
+
+
 let result;
 
 if (process.cwd() !== root || args.length) {
