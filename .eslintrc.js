@@ -10,7 +10,11 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> branch2
   ignorePatterns: ['scripts', 'lib', 'docs', 'example', 'app.plugin.js'],
   plugins: ['@typescript-eslint'],
   extends: ['plugin:@typescript-eslint/recommended', '@react-native-community'],
