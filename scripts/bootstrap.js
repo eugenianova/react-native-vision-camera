@@ -23,4 +23,6 @@ if (process.cwd() !== root || args.length) {
   result = child_process.spawnSync('yarn', ['bootstrap'], options);
 }
 
+
+
 process.exitCode = result.status;
